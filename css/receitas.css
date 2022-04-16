@@ -1,0 +1,30 @@
+.banner {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/bolo\ morango.jpg);
+    background-size: cover;
+    background-position: top 50% right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.hero_3_box{
+    display: none;
+}
+
+.hero_3_box:nth-child(1),
+.hero_3_box:nth-child(2),
+.hero_3_box:nth-child(3),
+.hero_3_box:nth-child(4),
+.hero_3_box:nth-child(5),
+.hero_3_box:nth-child(6),
+.hero_3_box:nth-child(7),
+.hero_3_box:nth-child(8),
+.hero_3_box:nth-child(9),
+.hero_3_box:nth-child(10),
+.hero_3_box:nth-child(11),
+.hero_3_box:nth-child(12),
+.hero_3_box:nth-child(13),
+.hero_3_box:nth-child(14),
+.hero_3_box:nth-child(15) {
+    display: inline-block;
+}
+
